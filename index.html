@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1XKHJDE3S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-D1XKHJDE3S');
+    </script>
+
     <!-- Materialize - Compiled and minified CSS-->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
     <!-- Font Awesome Icon - CSS-->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- Devicon - CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <!-- Custom Styles-->
     <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Leonidas Papanastasiou | Software Engineer</title>
@@ -164,6 +176,10 @@
                                 </button>
                             </a>
                         </div>
+                        <br>
+                        <div class='buttons'>
+                            <a href="#about" class="readme">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -184,109 +200,184 @@
                     to solve complex challenges and create value. Let’s connect and explore opportunities to shape the
                     future of technology together!
                 </p>
-                <p>
+                <!-- <p>
                 <ul>
                     <li><b>Languages:</b> Python, JavaScript, TypeScript, C, C++, HTML/CSS, Solidity, Rust, Go</li>
                     <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB, Supabase, Redis</li>
                     <li><b>Frameworks:</b> Flask, FastAPI, Django, Node.js, ReactJS, TensorFlow, PyTorch</li>
                     <li><b>Tools & Technologies:</b> Git, Docker, Cloud, JIRA</li>
                 </ul>
-                </p>
+                </p> -->
             </div>
         </section>
-
 
         <!-- Third Section: Experience -->
         <section id="experience" class="section scrollspy">
             <h3 class="page-title white-text teal">Experience</h3>
             <div class="container">
+                <!-- Wings -->
                 <div class="card">
                     <div class="card-content">
                         <div class="row">
-                            <div class="col s12 m2">
+                            <!-- <div class="col s12 m2">
                                 <a href="https://www.wings-ict-solutions.eu/" target="_blank"><img alt="Wings logo"
-                                        src=""
-                                        class="responsive-img center-block" /></a>
-                            </div>
-                            <!-- <div class="col s12 m10"> -->
+                                    src=""
+                                    class="responsive-img center-block" /></a>
+                            </div> -->
                             <div class="col s12 m10">
                                 <p>
                                     <span class="card-title"><a href="https://www.wings-ict-solutions.eu/" target="_blank"
-                                            class="teal-text hoverline">Wings ICT Solutions</a></span>
+                                        class="teal-text hoverline" style="text-transform: none;">Wings ICT Solutions</a></span>
                                 </p>
                             </div>
                         </div>
                         <div class="role brown-text text-darken-2">Blockchain & Data Engineer</div>
+                        <!-- Role Description -->
+                        <ul>
+                            <li>
+                                Engineered blockchain systems to enhance supply chain security, 
+                                efficiency, and data integrity, ensuring robust and transparent operations.
+                            </li>
+                            <li>
+                                Designed, implemented, and maintained private blockchain networks 
+                                using Hyperledger Besu, optimizing performance and scalability.
+                            </li>    
+                            <li>
+                                Created and integrated unified data pipelines by consolidating multiple data sources, 
+                                databases, and APIs, enhancing analytical capabilities for strategic insights.
+                            </li>
+                            <li>
+                                Developed and optimized extract, transform, and 
+                                load (ETL) processes to facilitate seamless data handling and transformation.
+                            </li>
+                        </ul>
                     </div>
                     <div class="card-action">
-                        <span>April 2023 - | Athens, Greece</span>
+                        <span>April 2023 - Current | Athens, Greece</span>
                     </div>
                 </div>
-
+                
+                <!-- Evolution -->
                 <div class="card">
                     <div class="card-content">
                         <div class="row">
-                            <div class="col s12 m2">
+                            <!-- <div class="col s12 m2">
                                 <a href="https://www.evolutionprojects.gr/" target="_blank"><img alt="Evolution Projects logo"
-                                        src="/assets/img/exp-meditab-logo-500x500.jpg"
-                                        class="responsive-img center-block" /></a>
-                            </div>
-                            <!-- <div class="col s12 m10"> -->
+                                    src="/assets/img/exp-meditab-logo-500x500.jpg"
+                                    class="responsive-img center-block" /></a>
+                            </div> -->
                             <div class="col s12 m10">
                                 <p>
                                     <span class="card-title"><a href="https://www.evolutionprojects.gr/" target="_blank"
-                                            class="teal-text hoverline">Evolution Projects+</a></span>
+                                            class="teal-text hoverline" style="text-transform: none;">Evolution Projects+</a></span>
                                 </p>
                             </div>
                         </div>
                         <div class="role brown-text text-darken-2">Full-stack Developer / Product Owner</div>
+                        <!-- Role Description -->
+                        <ul>
+                            <li>Maintained and supported software systems provided to municipalities across Greece, ensuring seamless operation and reliability.</li>
+                            <li>Designed and developed a Waste Data Management System for the Greek Ministry of Environment and Energy, 
+                                utilizing Django, MySQL, and the Django REST Framework.
+                                <ul>
+                                    <li>Adopted by over 45 municipalities to streamline waste management processes.</li>
+                                    <li>Incorporated machine learning algorithms for accurate waste production forecasting.</li>
+                                </ul>
+                            </li>
+                            <li>Led the design, development, and team management for a Dynamic Workflow Management System using ReactJS, Python, and PostgreSQL
+                                <ul>
+                                    <li><b>DEDA S.A.</b>: Implemented the system for Greece's largest natural gas provider, managing over 
+                                        5,000 applications, 4,000 consumers, and 100 employees. The project encompassed five interconnected 
+                                        platforms and earned the "Best Information System & IoT Application" award.
+                                    </li>
+                                    <li><b>RAE:</b>Deployed for managing energy complaints (natural gas and electricity) 
+                                        from over 1,000 consumers, supporting over 100 external and 50 internal users with two interconnected platforms.
+                                    </li>
+                                    <li><b>DEDDIE:</b>Utilized for managing smart poles across Greece, facilitating the distribution of electricity.</li>
+                                    <li><b>Mytilineos:</b>Implemented for handling fault requests from workers in the "Aspra Spitia" Model Community.
+                                        The system leveraged geospatial data and dynamic location handling for real-time issue resolution.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="card-action">
-                        <span>Sept 2020 - April 2023 | Athens, Greece</span>
+                        <span>September 2020 - April 2023 | Athens, Greece</span>
                     </div>
                 </div>
-
+                
+                <!-- Liquimar -->
                 <div class="card">
                     <div class="card-content">
                         <div class="row">
-                            <div class="col s12 m2">
+                            <!-- <div class="col s12 m2">
                                 <img alt="Liquimar logo" src="" class="responsive-img center-block" />
-                            </div>
-
-                            <!-- <div class="col s12 m10"> -->
+                            </div> -->
                             <div class="col s12 m10">
                                 <p>
-                                    <span class="card-title"><a href="#experience" class="teal-text hoverline">Liquimar Tanker Management</a></span>
+                                    <span class="card-title"><a href="#experience" class="teal-text hoverline" style="text-transform: none;">Liquimar Tanker Management Inc.</a></span>
                                 </p>
                             </div>
                         </div>
                         <div class="role brown-text text-darken-2">IT & Network Analyst</div>
+                        <!-- Role Description -->
+                        <ul>
+                            <li>Completed a six-month internship focused on IT systems and infrastructure.</li>
+                            <li>Maintained and managed diverse computer systems and servers to ensure smooth operations.</li>
+                            <li>Monitored the implementation and compliance of security protocols across the organization.</li>
+                            <li>Conducted needs assessments for various departments, documenting requirements for system improvements.</li>
+                            <li>Presented recommendations for technology upgrades to senior management, supporting strategic decision-making.</li>
+                            <li>Performed stress tests on the company’s network infrastructure to evaluate its capacity for supporting remote work during the COVID-19 pandemic.</li>
+                        </ul>
                     </div>
                     <div class="card-action">
-                        <span>July 2018 - Nov 2018 | Athens, Greece</span>
+                        <span>June 2018 - April 2020 | Athens, Greece</span>
                     </div>
                 </div>
 
+                <!-- Vision -->
                 <div class="card">
                     <div class="card-content">
                         <div class="row">
-                            <div class="col s12 m2">
+                            <!-- <div class="col s12 m2">
                                 <a href="" target="_blank"><img alt="vision tv entertainment logo" src="" class="responsive-img center-block" /></a>
-                            </div>
+                            </div> -->
                             <div class="col s12 m10">
                                 <p>
                                     <span class="card-title"><a href="" target="_blank"
-                                            class="teal-text hoverline">Vision TV Entertainment </a></span>
+                                            class="teal-text hoverline" style="text-transform: none;">Vision TV Entertainment</a></span>
                                 </p>
                             </div>
                         </div>
-                        <div class="role brown-text text-darken-2">Co-founder</div>
+                        <div class="role brown-text text-darken-2">Co-founder & Software Engineer</div>
+                        <!-- Role Description -->
+                        <ul>
+                            <li>
+                                Ideated the concept and product: provide content (TV channels, on demand services, etc.)
+                                with an innovative and ground-breaking solution (for the greek standards), that way creating a new television model.
+                            </li>
+                            <li>
+                                Gathered a lot of recognition for all big media providers in Greece.
+                            </li>
+                            <li>
+                                Developed the whole software infrastructure and was in charge of the business model.
+                            </li>
+                            <li>
+                                Incorporated into one of the biggest telecommunications companies in Greece.
+                            </li>
+                            <li> A rapid hardware prototype was created using :
+                                <ul>
+                                    <li>Raspberry Pi 3</li>
+                                    <li>Embedded Linux</li>
+                                    <li>Python</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="card-action">
-                        <span>June 2017 - July 2017 | Athens, Greece</span>
+                        <span>June 2016 - April 2017 | Athens, Greece</span>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -294,140 +385,166 @@
         <section id="skills" class="section scrollspy">
             <h3 class="page-title white-text teal">Skills</h3>
             <div class="container">
-                <!-- Languages and Databases -->
+                <!-- Programming Languages -->
                 <div class="card">
                     <div class="card-content">
-                        <h4 class="brown-text light">Languages and Databases</h4>
+                        <h4 class="brown-text light">Programming Languages</h4>
                         <div class="row text-center">
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="responsive-img" alt="Python" />Python
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="responsive-img" alt="C++" />C++
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" class="responsive-img" alt="C" />C
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" class="responsive-img" alt="Go" />Go
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" class="responsive-img" alt="Rust" />Rust
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell
-                                Scripting
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="responsive-img" alt="SQL" />SQL
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="responsive-img" alt="Javascript" />Javascript
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" class="responsive-img" alt="TypeScript" />TypeScript
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
+                <!-- Technologies & Frameworks -->
                 <div class="card">
                     <div class="card-content">
-                        <h4 class="brown-text light">Libraries</h4>
+                        <h4 class="brown-text light">Technologies & Frameworks</h4>
+
+                        <!-- Blockchain Development -->
+                        <div class="row text-center">
+                            <h5 class="brown-text light">Blockchain Development</h5>
+                            <br>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg" class="responsive-img" alt="Solidity" />Solidity
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/polygon/polygon-original.svg" class="responsive-img" alt="Polygon"/> Polygon
+                            </div>
+                            <div class="col s4 m2">        
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" class="responsive-img" alt="Hardhat" /> Hardhat
+                            </div>
+                        </div>
+                
+                        <!-- REST API Development -->
+                        <div class="row text-center">
+                            <h5 class="brown-text light">REST API Development</h5>
+                            <br>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" class="responsive-img" alt="Django"/> Django
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" class="responsive-img" alt="FastAPI"/> FastAPI
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" class="responsive-img" alt="Flask" />Flask
+                            </div>
+                        </div>
+                
+                        <!-- Front-end Development -->
+                        <div class="row text-center">
+                            <h5 class="brown-text light">Front-end Development</h5>
+                            <br>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="responsive-img" alt="ReactJS/NextJS" />ReactJS
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" class="responsive-img" alt="NextJS" />NextJS
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="responsive-img" alt="HTML" />HTML
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="responsive-img" alt="CSS" />CSS
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" class="responsive-img" alt="WordPress" />WordPress
+                            </div>
+                        </div>
+                        
+                        <!-- Databases -->
+                        <div class="row text-center">
+                            <h5 class="brown-text light">Databases</h5>
+                            <br>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="responsive-img" alt="MySQL" />MySQL
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="responsive-img" alt="PostgreSQL" />PostgreSQL
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" class="responsive-img" alt="MongoDB" />MongoDB
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" class="responsive-img" alt="Supabase" />Supabase
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" class="responsive-img" alt="Redis" />Redis
+                            </div>
+                        </div>
+                        
+                        <!-- Other -->
+                        <div class="row text-center">
+                            <h5 class="brown-text light">Other</h5>
+                            <br>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="responsive-img" alt="Pandas" />Pandas
+                            </div>
+                            <div class="col s4 m2">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" class="responsive-img" alt="TensorFlow" />TensorFlow
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Version Control -->
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="brown-text light">Version Control</h4>
                         <div class="row text-center">
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="responsive-img" alt="Git" />Git
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="responsive-img" alt="GitHub" />GitHub
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg" class="responsive-img" alt="Bitbucket" />Bitbucket
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg"
-                                    class="responsive-img" />scikit-learn
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg"
-                                    class="responsive-img" />matplotlib
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" class="responsive-img" alt="GitLab" />GitLab
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Frameworks -->
+                
+                <!-- Microcontroller Programming -->
                 <div class="card">
                     <div class="card-content">
-                        <h4 class="brown-text light">Frameworks</h4>
+                        <h4 class="brown-text light">Microcontroller Programming</h4>
                         <div class="row text-center">
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" class="responsive-img" alt="Arduino" />Arduino
                             </div>
                             <div class="col s4 m2">
-                                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
-                            </div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" class="responsive-img" alt="Raspberry Pi" />Raspberry Pi
+                            </div> 
                         </div>
                     </div>
                 </div>
-
-                <!-- Other -->
-                <div class="card">
-                    <div class="card-content">
-                        <h4 class="brown-text light">Other</h4>
-                        <div class="row text-center">
-
-
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
-                            </div>
-                            <div class="col s4 m2">
-                                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- certifications -->
-                <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
             </div>
         </section>
 
@@ -437,6 +554,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Education -->
+                    <!-- MSc -->
                     <div class="col s12 m6 l6">
                         <div class="card">
                             <div class="card-content">
@@ -456,6 +574,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- BSc -->
                     <div class="col s12 m6 l6">
                         <div class="card">
                             <div class="card-content">
@@ -492,7 +612,6 @@
             backSpeed: 40
         });
     </script>
-
 
     <!-- jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
