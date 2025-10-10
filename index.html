@@ -118,17 +118,9 @@
             </li>
 
             <li class="bold">
-                <a aria-label="Navigate to the Projects section" href="#projects"
+                <a aria-label="Navigate to the Certifications section" href="#certifications"
                     class="waves-effect waves-dark teal-text"><i
-                        class="mdi-av-my-library-books small"></i><span>Projects</span>
-                </a>
-            </li>
-
-            <li class="bold">
-                <a aria-label="Navigate to the Awards section" href="#awards"
-                    class="waves-effect waves-dark teal-text"><i
-                        class="mdi-action-grade small"></i><span>Awards</span>
-                </a>
+                        class="mdi-action-verified-user small"></i><span>Certifications</span></a>
             </li>
 
             <li class="bold">
@@ -136,18 +128,6 @@
                     class="waves-effect waves-dark teal-text"><i
                         class="mdi-action-assessment small"></i><span>Skills</span>
                 </a>
-            </li>
-
-            <li class="bold">
-                <a aria-label="Navigate to the Certifications section" href="#certifications"
-                    class="waves-effect waves-dark teal-text"><i
-                        class="mdi-action-verified-user small"></i><span>Certifications</span></a>
-            </li>
-
-            <li class="bold">
-                <a aria-label="Navigate to the Education section" href="#education"
-                    class="waves-effect waves-dark teal-text"><i
-                        class="mdi-social-school small"></i><span>Education</span></a>
             </li>
 
             <li class="bold">
@@ -181,22 +161,6 @@
                     class="waves-effect waves-dark teal-text"><i
                         class="mdi-action-trending-up small"></i><span>Experience</span></a>
             </li>
-            <li class="bold">
-                <a aria-label="Navigate to the Projects section" href="#projects"
-                    class="waves-effect waves-dark teal-text"><i
-                        class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-            </li>
-            <li class="bold">
-                <a aria-label="Navigate to the Awards section" href="#awards"
-                    class="waves-effect waves-dark teal-text"><i
-                        class="mdi-action-grade small"></i><span>Awards</span></a>
-            </li>
-
-            <li class="bold">
-                <a aria-label="Navigate to the Skills section" href="#skills"
-                    class="waves-effect waves-dark teal-text"><i
-                        class="mdi-action-assessment small"></i><span>Skills</span></a>
-            </li>
 
             <li class="bold">
                 <a aria-label="Navigate to the Certifications section" href="#certifications"
@@ -205,10 +169,11 @@
             </li>
 
             <li class="bold">
-                <a aria-label="Navigate to the Education section" href="#education"
+                <a aria-label="Navigate to the Skills section" href="#skills"
                     class="waves-effect waves-dark teal-text"><i
-                        class="mdi-social-school small"></i><span>Education</span></a>
+                        class="mdi-action-assessment small"></i><span>Skills</span></a>
             </li>
+
             <li class="bold">
                 <a aria-label="Open resume in a new tab"
                     href="/assets/resume/Resume.pdf" target="_blank" rel="noopener"
@@ -269,7 +234,10 @@
 
         <!-- Second Section: About -->
         <section id="about" class="section scrollspy compact-section">
-            <h3 class="page-title white-text teal">About</h3>
+            <h3 class="page-title white-text teal">
+                <i class="fa fa-user"></i>
+                About
+            </h3>
             <div class="container">
                 <div class="about-content">
                     <div class="about-text">
@@ -308,26 +276,141 @@
                             <p>Real-time analytics pipelines</p>
                         </div>
                     </div>
+                    
+                    <!-- Education Subsection -->
+                    <div class="education-subsection">
+                        <h4 class="subsection-title">
+                            <i class="fa fa-graduation-cap"></i>
+                            Education
+                        </h4>
+                        <div class="education-cards">
+                            <div class="education-card master">
+                                <div class="degree-icon">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </div>
+                                <div class="degree-info">
+                                    <h5>MSc in Data Science & Information Technologies</h5>
+                                    <div class="degree-meta">
+                                        <span class="institution">National & Kapodistrian University of Athens</span>        
+                                    </div>
+                                    <div class="specialization">Big Data & Artificial Intelligence</div>
+                                </div>
+                            </div>
+                            
+                            <div class="education-card bachelor">
+                                <div class="degree-icon">
+                                    <i class="fa fa-university"></i>
+                                </div>
+                                <div class="degree-info">
+                                    <h5>BSc in Informatics and Telecommunications</h5>
+                                    <div class="degree-meta">
+                                        <span class="institution">National & Kapodistrian University of Athens</span>
+                                    </div>
+                                    <div class="specialization">Software Engineering & Algorithms</div>
+                                    <div class="achievements">
+                                        <span class="achievement-badge">Top 3 Freshman</span>
+                                        <span class="achievement-badge">2:1 Honors</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Third Section: Experience -->
         <section id="experience" class="section scrollspy compact-section">
-            <h3 class="page-title white-text teal">Experience</h3>
+            <h3 class="page-title white-text teal">
+                <i class="fa fa-briefcase"></i>
+                Experience
+            </h3>
             <div class="container">
-                <!-- Experience Timeline -->
-                <div class="experience-timeline">
-                    <!-- Quantitative Hedge Fund -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <div class="job-header">
-                                <h4 class="company-name">Quantitative Hedge Fund</h4>
-                                <span class="job-period">Sep 2025 - Present</span>
+                <div class="experience-layout">
+                    <!-- Sidebar Navigation -->
+                    <div class="experience-sidebar">
+                        <div class="sidebar-item active" data-tab="hedge-fund">
+                            <div class="sidebar-icon">
+                                <i class="fa fa-bar-chart"></i>
                             </div>
-                            <div class="job-title">Consultant - Quantitative Software Engineer</div>
-                            <div class="job-location">New York, US</div>
+                            <div class="sidebar-content">
+                                <div class="sidebar-company">Quantitative Hedge Fund</div>
+                                <div class="sidebar-role">Quantitative Software Engineer</div>
+                                <div class="sidebar-period">2025 - Present</div>
+                            </div>
+                            <div class="sidebar-indicator current"></div>
+                        </div>
+                        
+                        <div class="sidebar-item" data-tab="wings">
+                            <div class="sidebar-icon">
+                                <i class="fa fa-link"></i>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="sidebar-company">Wings ICT Solutions</div>
+                                <div class="sidebar-role">Blockchain & Data Engineer</div>
+                                <div class="sidebar-period">2023 - 2025</div>
+                            </div>
+                            <div class="sidebar-indicator"></div>
+                        </div>
+                        
+                        <div class="sidebar-item" data-tab="evolution">
+                            <div class="sidebar-icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="sidebar-company">Evolution Projects+</div>
+                                <div class="sidebar-role">Full Stack Engineer / Product Manager</div>
+                                <div class="sidebar-period">2020 - 2023</div>
+                            </div>
+                            <div class="sidebar-indicator"></div>
+                        </div>
+                        
+                        <div class="sidebar-item" data-tab="liquimar">
+                            <div class="sidebar-icon">
+                                <i class="fa fa-ship"></i>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="sidebar-company">Liquimar Tanker Management</div>
+                                <div class="sidebar-role">IT & Network Analyst</div>
+                                <div class="sidebar-period">2018 - 2020</div>
+                            </div>
+                            <div class="sidebar-indicator"></div>
+                        </div>
+                        
+                        <div class="sidebar-item" data-tab="vision">
+                            <div class="sidebar-icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="sidebar-company">Vision TV Entertainment</div>
+                                <div class="sidebar-role">Co-founder & Lead Engineer</div>
+                                <div class="sidebar-period">2016 - 2017</div>
+                            </div>
+                            <div class="sidebar-indicator"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Content Area -->
+                    <div class="experience-content">
+                        <!-- Quantitative Hedge Fund -->
+                        <div class="tab-panel active" id="hedge-fund">
+                            <div class="job-header">
+                                <div class="job-title-section">
+                                    <h4 class="company-name">Quantitative Hedge Fund</h4>
+                                    <h5 class="job-title">Consultant - Quantitative Software Engineer</h5>
+                                    <div class="job-meta">
+                                        <span class="job-period">Sep 2025 - Present</span>
+                                        <span class="job-location">
+                                            <i class="fa fa-map-marker"></i>
+                                            New York, US
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="job-status current">Current Position</div>
+                            </div>
+                            <div class="job-description">
+                                <p>Designing scalable internal software solutions for high-frequency trading pipelines and enhancing Order Management Systems for real-time trade execution in quantitative trading environments.</p>
+                            </div>
                             <div class="job-achievements">
                                 <div class="achievement">
                                     <i class="fa fa-check-circle"></i>
@@ -343,18 +426,25 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Wings ICT Solutions -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
+                        
+                        <!-- Wings ICT Solutions -->
+                        <div class="tab-panel" id="wings">
                             <div class="job-header">
-                                <h4 class="company-name"><a href="https://www.wings-ict-solutions.eu/" target="_blank" class="teal-text hoverline">Wings ICT Solutions</a></h4>
-                                <span class="job-period">Apr 2023 - May 2025</span>
+                                <div class="job-title-section">
+                                    <h4 class="company-name"><a href="https://www.wings-ict-solutions.eu/" target="_blank" class="teal-text hoverline">Wings ICT Solutions</a></h4>
+                                    <h5 class="job-title">Blockchain & Data Engineer</h5>
+                                    <div class="job-meta">
+                                        <span class="job-period">Apr 2023 - May 2025</span>
+                                        <span class="job-location">
+                                            <i class="fa fa-map-marker"></i>
+                                            Athens, Greece
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="job-title">Blockchain & Data Engineer</div>
-                            <div class="job-location">Athens, Greece</div>
+                            <div class="job-description">
+                                <p>Architected scalable private blockchain networks using Hyperledger Besu and implemented Flask-based RESTful microservices with 20+ endpoints for blockchain interaction layers.</p>
+                            </div>
                             <div class="job-achievements">
                                 <div class="achievement">
                                     <i class="fa fa-check-circle"></i>
@@ -370,18 +460,25 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Evolution Projects+ -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
+                        
+                        <!-- Evolution Projects+ -->
+                        <div class="tab-panel" id="evolution">
                             <div class="job-header">
-                                <h4 class="company-name"><a href="https://www.evolutionprojects.gr/" target="_blank" class="teal-text hoverline">Evolution Projects+</a></h4>
-                                <span class="job-period">Sep 2020 - Apr 2023</span>
+                                <div class="job-title-section">
+                                    <h4 class="company-name"><a href="https://www.evolutionprojects.gr/" target="_blank" class="teal-text hoverline">Evolution Projects+</a></h4>
+                                    <h5 class="job-title">Full Stack Engineer / Product Manager</h5>
+                                    <div class="job-meta">
+                                        <span class="job-period">Sep 2020 - Apr 2023</span>
+                                        <span class="job-location">
+                                            <i class="fa fa-map-marker"></i>
+                                            Athens, Greece
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="job-title">Full Stack Engineer / Product Manager</div>
-                            <div class="job-location">Athens, Greece</div>
+                            <div class="job-description">
+                                <p>Led award-winning enterprise platform development scaling to 5,000+ users and delivered Django-based ML systems with 92% forecasting accuracy adopted by 45+ municipalities.</p>
+                            </div>
                             <div class="job-achievements">
                                 <div class="achievement">
                                     <i class="fa fa-check-circle"></i>
@@ -397,18 +494,25 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Liquimar Tanker Management -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
+                        
+                        <!-- Liquimar Tanker Management -->
+                        <div class="tab-panel" id="liquimar">
                             <div class="job-header">
-                                <h4 class="company-name">Liquimar Tanker Management Inc.</h4>
-                                <span class="job-period">Jun 2018 - Apr 2020</span>
+                                <div class="job-title-section">
+                                    <h4 class="company-name">Liquimar Tanker Management Inc.</h4>
+                                    <h5 class="job-title">IT & Network Analyst</h5>
+                                    <div class="job-meta">
+                                        <span class="job-period">Jun 2018 - Apr 2020</span>
+                                        <span class="job-location">
+                                            <i class="fa fa-map-marker"></i>
+                                            Athens, Greece
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="job-title">IT & Network Analyst</div>
-                            <div class="job-location">Athens, Greece</div>
+                            <div class="job-description">
+                                <p>Maintained enterprise IT systems and implemented secure network infrastructure with 99.9% uptime during COVID-19 remote work transition.</p>
+                            </div>
                             <div class="job-achievements">
                                 <div class="achievement">
                                     <i class="fa fa-check-circle"></i>
@@ -420,18 +524,25 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Vision TV Entertainment -->
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
+                        
+                        <!-- Vision TV Entertainment -->
+                        <div class="tab-panel" id="vision">
                             <div class="job-header">
-                                <h4 class="company-name">Vision TV Entertainment</h4>
-                                <span class="job-period">Jun 2016 - Apr 2017</span>
+                                <div class="job-title-section">
+                                    <h4 class="company-name">Vision TV Entertainment</h4>
+                                    <h5 class="job-title">Cofounder & Lead Engineer</h5>
+                                    <div class="job-meta">
+                                        <span class="job-period">Jun 2016 - Apr 2017</span>
+                                        <span class="job-location">
+                                            <i class="fa fa-map-marker"></i>
+                                            Athens, Greece
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="job-title">Cofounder & Lead Engineer</div>
-                            <div class="job-location">Athens, Greece</div>
+                            <div class="job-description">
+                                <p>Conceptualized and created innovative OTT content delivery platform using Python, Linux, and Raspberry Pi, integrated into one of Greece's largest telecom networks.</p>
+                            </div>
                             <div class="job-achievements">
                                 <div class="achievement">
                                     <i class="fa fa-check-circle"></i>
@@ -448,32 +559,176 @@
             </div>
         </section>
 
-        <!-- Fourth Section: Awards -->
-        <section id="awards" class="section scrollspy compact-section">
-            <h3 class="page-title white-text teal">Awards & Achievements</h3>
+        <!-- Fifth Section: Certifications & Awards -->
+        <section id="certifications" class="section scrollspy compact-section">
+            <h3 class="page-title white-text teal">
+                <i class="fa fa-certificate"></i>
+                Certifications & Awards
+            </h3>
             <div class="container">
-                <!-- Achievements -->
-                
-
-                <!-- Award-Winning Systems -->
-                <div class="card">
-                    <div class="card-content">
-                        <h4 class="brown-text light">🎖️ Award-Winning Systems & Achievements</h4>
-                        <ul>
-                            <li>🥇 <strong>2022 - "Best Information System & IoT Application" Award:</strong> Dynamic Workflow Management System (DEDA S.A.)</li>
-                            <li>🏆 <strong>2017 - Top 3 Startup:</strong> Athens Startup Weekend</li>
-                            <li>🏆 <strong>2008 - 3rd Place:</strong> Hellenic Society of Mathematics "Thalis" Contest</li>
-                        </ul>
+                <!-- Professional Certifications -->
+                <div class="certifications-section">
+                    <h4 class="section-subtitle">
+                        <i class="fa fa-certificate"></i>
+                        Professional Certifications
+                    </h4>
+                    <div class="certifications-grid">
+                        <div class="cert-card premium">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="fa fa-bar-chart"></i>
+                                </div>
+                                <div class="cert-badge">Finance</div>
+                            </div>
+                            <div class="cert-content">
+                                <h5>Machine Learning for Trading Specialization</h5>
+                                <div class="cert-issuer">
+                                    <i class="fa fa-university"></i>
+                                    <span>Coursera / Google Cloud</span>
+                                </div>
+                                <div class="cert-year">2025</div>
+                                <p>Advanced machine learning techniques applied to quantitative trading and financial markets.</p>
+                                <a href="https://www.coursera.org/account/accomplishments/specialization/XOG7AD6POK09" target="_blank" rel="noopener" class="cert-link">
+                                    <i class="fa fa-external-link"></i>
+                                    <span>Verify Certificate</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card premium">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="fa fa-bar-chart"></i>
+                                </div>
+                                <div class="cert-badge">Finance</div>
+                            </div>
+                            <div class="cert-content">
+                                <h5>Quantitative Finance & Algorithmic Trading</h5>
+                                <div class="cert-issuer">
+                                    <i class="fa fa-graduation-cap"></i>
+                                    <span>Udemy</span>
+                                </div>
+                                <div class="cert-year">2025</div>
+                                <p>Comprehensive course covering quantitative finance, algorithmic trading strategies, and Python implementation.</p>
+                                <a href="https://www.udemy.com/certificate/UC-764be9ad-6609-4eae-b22f-7ef7fd0a7d1a/" target="_blank" rel="noopener" class="cert-link">
+                                    <i class="fa fa-external-link"></i>
+                                    <span>Verify Certificate</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card standard">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="fa fa-cog"></i>
+                                </div>
+                                <div class="cert-badge">Engineering</div>
+                            </div>
+                            <div class="cert-content">
+                                <h5>AI Engineering Professional Certificate</h5>
+                                <div class="cert-issuer">
+                                    <i class="fa fa-university"></i>
+                                    <span>Coursera / IBM</span>
+                                </div>
+                                <div class="cert-year">2024</div>
+                                <p>Professional certification in AI engineering, machine learning, and artificial intelligence systems.</p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/E5CWC2YBGSE8" target="_blank" rel="noopener" class="cert-link">
+                                    <i class="fa fa-external-link"></i>
+                                    <span>Verify Certificate</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card standard">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="fa fa-cog"></i>
+                                </div>
+                                <div class="cert-badge">Engineering</div>
+                            </div>
+                            <div class="cert-content">
+                                <h5>Ultimate Rust Crash Course</h5>
+                                <div class="cert-issuer">
+                                    <i class="fa fa-graduation-cap"></i>
+                                    <span>Udemy</span>
+                                </div>
+                                <div class="cert-year">2024</div>
+                                <p>Comprehensive Rust programming course covering systems programming and performance optimization.</p>
+                                <a href="https://www.udemy.com/certificate/UC-2c31a150-284e-4faf-a55f-15183ec2096b/" target="_blank" rel="noopener" class="cert-link">
+                                    <i class="fa fa-external-link"></i>
+                                    <span>Verify Certificate</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Speaking -->
-                <div class="card">
-                    <div class="card-content">
-                        <h4 class="brown-text light">🗣️ Speaker</h4>
-                        <ul>
-                            <li><strong>2016 - Speaker:</strong> 18th InfoCom World Conference - Presented my cofounded startup, Vision TV Entertainment</li>
-                        </ul>
+                
+                <!-- Awards & Recognition -->
+                <div class="awards-section">
+                    <h4 class="section-subtitle">
+                        <i class="fa fa-trophy"></i>
+                        Awards & Recognition
+                    </h4>
+                    <div class="awards-grid">
+                        <div class="award-card gold">
+                            <div class="award-header">
+                                <div class="award-icon">
+                                    <i class="fa fa-trophy"></i>
+                                </div>
+                                <div class="award-rank">1st Place</div>
+                            </div>
+                            <div class="award-content">
+                                <h5>Best Information System & IoT Application</h5>
+                                <div class="award-issuer">Industry Award</div>
+                                <div class="award-year">2022</div>
+                                <p>Dynamic Workflow Management System (DEDA S.A.) - Award-winning enterprise platform.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="award-card silver">
+                            <div class="award-header">
+                                <div class="award-icon">
+                                    <i class="fa fa-trophy"></i>
+                                </div>
+                                <div class="award-rank">Top 3</div>
+                            </div>
+                            <div class="award-content">
+                                <h5>Athens Startup Weekend</h5>
+                                <div class="award-issuer">Vision TV Entertainment</div>
+                                <div class="award-year">2017</div>
+                                <p>Innovative OTT content delivery platform for the Greek market.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="award-card bronze">
+                            <div class="award-header">
+                                <div class="award-icon">
+                                    <i class="fa fa-trophy"></i>
+                                </div>
+                                <div class="award-rank">3rd Place</div>
+                            </div>
+                            <div class="award-content">
+                                <h5>Mathematics Contest "Thalis"</h5>
+                                <div class="award-issuer">Hellenic Society of Mathematics</div>
+                                <div class="award-year">2008</div>
+                                <p>National mathematics competition showcasing analytical and problem-solving skills.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="award-card speaking">
+                            <div class="award-header">
+                                <div class="award-icon">
+                                    <i class="fa fa-microphone"></i>
+                                </div>
+                                <div class="award-rank">Speaker</div>
+                            </div>
+                            <div class="award-content">
+                                <h5>18th InfoCom World Conference</h5>
+                                <div class="award-issuer">Technology Conference</div>
+                                <div class="award-year">2016</div>
+                                <p>Presented Vision TV Entertainment startup at major technology conference.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -576,16 +831,22 @@
 
         <!-- Sixth Section: Skills -->
         <section id="skills" class="section scrollspy compact-section">
-            <h3 class="page-title white-text teal">Skills</h3>
+            <h3 class="page-title white-text teal">
+                <i class="fa fa-cogs"></i>
+                Skills
+            </h3>
             <div class="container">
                 <!-- Skills Overview -->
                 <div class="skills-overview">
                     <div class="skill-category">
-                        <h4 class="category-title">Programming Languages</h4>
+                        <h4 class="category-title">
+                            <i class="fa fa-code"></i>
+                            Programming Languages
+                        </h4>
                         <div class="skill-tags">
-                            <span class="skill-tag primary">Python</span>
-                            <span class="skill-tag primary">JavaScript</span>
-                            <span class="skill-tag primary">TypeScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
                             <span class="skill-tag">C++</span>
                             <span class="skill-tag">Go</span>
                             <span class="skill-tag">Rust</span>
@@ -594,72 +855,114 @@
                     </div>
                     
                     <div class="skill-category">
-                        <h4 class="category-title">Backend & APIs</h4>
+                        <h4 class="category-title">
+                            <i class="fa fa-line-chart"></i>
+                            Quantitative Finance & Trading
+                        </h4>
                         <div class="skill-tags">
-                            <span class="skill-tag primary">Django</span>
-                            <span class="skill-tag primary">FastAPI</span>
-                            <span class="skill-tag primary">Flask</span>
+                            <span class="skill-tag">Algorithmic Trading</span>
+                            <span class="skill-tag">Order Management Systems</span>
+                            <span class="skill-tag">High-Frequency Trading</span>
+                            <span class="skill-tag">Quantitative Analysis</span>
+                            <span class="skill-tag">Risk Management</span>
+                            <span class="skill-tag">Financial Modeling</span>
+                            <span class="skill-tag">Market Data Processing</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">
+                            <i class="fa fa-server"></i>
+                            Backend & APIs
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Flask</span>
                             <span class="skill-tag">Node.js</span>
                             <span class="skill-tag">REST APIs</span>
                             <span class="skill-tag">GraphQL</span>
+                            <span class="skill-tag">Microservices</span>
                         </div>
                     </div>
                     
                     <div class="skill-category">
-                        <h4 class="category-title">Frontend Development</h4>
+                        <h4 class="category-title">
+                            <i class="fa fa-bar-chart"></i>
+                            Data & ML
+                        </h4>
                         <div class="skill-tags">
-                            <span class="skill-tag primary">React</span>
-                            <span class="skill-tag primary">Next.js</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Apache Airflow</span>
+                            <span class="skill-tag">Jupyter</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">
+                            <i class="fa fa-cloud"></i>
+                            Cloud & DevOps
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">Google Cloud</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">CI/CD</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">
+                            <i class="fa fa-database"></i>
+                            Databases
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">Supabase</span>
+                            <span class="skill-tag">InfluxDB</span>
+                            <span class="skill-tag">Elasticsearch</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">
+                            <i class="fa fa-desktop"></i>
+                            Frontend Development
+                        </h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Next.js</span>
                             <span class="skill-tag">HTML5</span>
                             <span class="skill-tag">CSS3</span>
                             <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Material-UI</span>
+                            <span class="skill-tag">Responsive Design</span>
                         </div>
                     </div>
                     
                     <div class="skill-category">
-                        <h4 class="category-title">Blockchain & Web3</h4>
+                        <h4 class="category-title">
+                            <i class="fa fa-link"></i>
+                            Blockchain & Web3
+                        </h4>
                         <div class="skill-tags">
-                            <span class="skill-tag primary">Solidity</span>
-                            <span class="skill-tag primary">Ethereum</span>
+                            <span class="skill-tag">Solidity</span>
+                            <span class="skill-tag">Ethereum</span>
                             <span class="skill-tag">Polygon</span>
                             <span class="skill-tag">Hardhat</span>
                             <span class="skill-tag">Foundry</span>
                             <span class="skill-tag">Solana</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4 class="category-title">Data & ML</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag primary">Pandas</span>
-                            <span class="skill-tag primary">NumPy</span>
-                            <span class="skill-tag primary">Scikit-learn</span>
-                            <span class="skill-tag">TensorFlow</span>
-                            <span class="skill-tag">PyTorch</span>
-                            <span class="skill-tag">Apache Airflow</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4 class="category-title">Cloud & DevOps</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag primary">AWS</span>
-                            <span class="skill-tag primary">Azure</span>
-                            <span class="skill-tag primary">Docker</span>
-                            <span class="skill-tag">Kubernetes</span>
-                            <span class="skill-tag">Google Cloud</span>
-                            <span class="skill-tag">Git</span>
-                        </div>
-                    </div>
-                    
-                    <div class="skill-category">
-                        <h4 class="category-title">Databases</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag primary">PostgreSQL</span>
-                            <span class="skill-tag primary">MongoDB</span>
-                            <span class="skill-tag">MySQL</span>
-                            <span class="skill-tag">Redis</span>
-                            <span class="skill-tag">Supabase</span>
+                            <span class="skill-tag">Web3.js</span>
                         </div>
                     </div>
                 </div>
@@ -667,111 +970,6 @@
             </div>
         </section>
 
-        <!-- Seventh Section: Certifications -->
-        <section id="certifications" class="section scrollspy compact-section">
-            <h3 class="page-title white-text teal">Certifications</h3>
-            <div class="container">
-                <!-- Quantitative Finance & Trading Certifications -->
-                <div class="card">
-                    <div class="card-content">
-                        <h4 class="brown-text light">📈 Quantitative Finance & Trading</h4>
-                        <div class="row">
-                            <div class="col s12 m6">
-                                <div class="certification-item">
-                                    <h6><a href="#" target="_blank" rel="noopener" class="teal-text hoverline">Specialization in Machine Learning for Trading</a></h6>
-                                    <p class="brown-text">Coursera / Google Cloud - 2025</p>
-                                    <p>Advanced machine learning techniques applied to quantitative trading and financial markets.</p>
-                                </div>
-                            </div>
-                            <div class="col s12 m6">
-                                <div class="certification-item">
-                                    <h6><a href="#" target="_blank" rel="noopener" class="teal-text hoverline">Quantitative Finance & Algorithmic Trading in Python</a></h6>
-                                    <p class="brown-text">Udemy - 2025</p>
-                                    <p>Comprehensive course covering quantitative finance, algorithmic trading strategies, and Python implementation.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Programming & Development Certifications -->
-                <div class="card">
-                    <div class="card-content">
-                        <h4 class="brown-text light">💻 Programming & Development</h4>
-                        <div class="row">
-                            <div class="col s12 m6">
-                                <div class="certification-item">
-                                    <h6><a href="#" target="_blank" rel="noopener" class="teal-text hoverline">Ultimate Rust Crash Course</a></h6>
-                                    <p class="brown-text">Udemy - 2024</p>
-                                    <p>Comprehensive Rust programming course covering systems programming and performance optimization.</p>
-                                </div>
-                            </div>
-                            <div class="col s12 m6">
-                                <div class="certification-item">
-                                    <h6><a href="#" target="_blank" rel="noopener" class="teal-text hoverline">AI Engineering Professional Certificate</a></h6>
-                                    <p class="brown-text">Coursera / IBM - 2024</p>
-                                    <p>Professional certification in AI engineering, machine learning, and artificial intelligence systems.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Eighth Section: Education -->
-        <section id="education" class="section scrollspy compact-section">
-            <h3 class="page-title white-text teal">Education</h3>
-            <div class="container">
-                <div class="row">
-                    <!-- Education -->
-                    <!-- MSc -->
-                    <div class="col s12 m6 l6">
-                        <div class="card">
-                            <div class="card-content">
-                                <p>
-                                    <span class="card-title"><a href="https://dsit.di.uoa.gr/" target="_blank"
-                                            class="teal-text hoverline" style="text-transform: none;">MSc in Data Science & Information Technologies</a></span>
-                                </p>
-                                <p class="brown-text">Athens, Greece</p>
-                                <p>
-                                    <b>Specialization: </b>Big Data & Artificial Intelligence
-                                    <br>
-                                    <b>Department: </b>Department of Informatics & Telecommunications
-                                    <br>
-                                    <b>Institution: </b>National & Kapodistrian University of Athens (NKUA)
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- BSc -->
-                    <div class="col s12 m6 l6">
-                        <div class="card">
-                            <div class="card-content">
-                                <p>
-                                    <span class="card-title"><a
-                                            href="https://www.di.uoa.gr/"
-                                            target="_blank" class="teal-text hoverline" style="text-transform: none;">BSc in Informatics and Telecommunications</a></span>
-                                </p>
-                                <p class="brown-text">Athens, Greece</p>
-                                <p>
-                                    <b>Specialization: </b>Software Engineering & Algorithms
-                                    <br>
-                                    <b>Department: </b>Department of Informatics & Telecommunications
-                                    <br>
-                                    <b>Institution: </b>National & Kapodistrian University of Athens (NKUA)
-                                    <br>
-                                    <b>Achievements: </b>Top 3 freshman student award, Upper Second Class Honors (2:1), Member of Student Council
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <!-- Floating Action Button for Quick Navigation -->
@@ -783,14 +981,11 @@
             <a href="#experience" class="fab-item" title="Experience">
                 <i class="fa fa-briefcase"></i>
             </a>
-            <a href="#projects" class="fab-item" title="Projects">
-                <i class="fa fa-code"></i>
-            </a>
             <a href="#skills" class="fab-item" title="Skills">
                 <i class="fa fa-cogs"></i>
             </a>
-            <a href="#awards" class="fab-item" title="Awards">
-                <i class="fa fa-trophy"></i>
+            <a href="#certifications" class="fab-item" title="Certifications">
+                <i class="fa fa-certificate"></i>
             </a>
             <a href="/assets/resume/Resume.pdf" target="_blank" class="fab-item" title="Resume">
                 <i class="fa fa-download"></i>
@@ -879,6 +1074,28 @@
                 });
             });
         })
+    </script>
+
+    <!-- Experience Sidebar JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sidebarItems = document.querySelectorAll('.sidebar-item');
+            const tabPanels = document.querySelectorAll('.tab-panel');
+
+            sidebarItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const targetTab = this.getAttribute('data-tab');
+                    
+                    // Remove active class from all sidebar items and panels
+                    sidebarItems.forEach(sidebarItem => sidebarItem.classList.remove('active'));
+                    tabPanels.forEach(panel => panel.classList.remove('active'));
+                    
+                    // Add active class to clicked sidebar item and corresponding panel
+                    this.classList.add('active');
+                    document.getElementById(targetTab).classList.add('active');
+                });
+            });
+        });
     </script>
 </body>
 
