@@ -1834,3 +1834,9 @@ small {
     font-size: 16px;
   }
 }
+/* Desktop already has the fixed sidebar nav; the quick-nav FAB only covers content there */
+@media (min-width: 993px) {
+    .fab-container {
+        display: none;
+    }
+}
